@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+h1{
+    margin: 0px;
+    padding: 50px;
+}
+body{
+    font-family: 'Aboreto';
+    color: #D9D8D7;
+    text-align: center;
+    margin: auto;
+    background-color: #262626;
+}
+input#segundos,#minutos,#horas{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #D9D8D7;
+    font-family: 'Aboreto';
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+button{
+    font-family: 'Aboreto';
+    font-weight: bolder;
+    margin: 30px;
+    background-color: #D9D8D7; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: #262626;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+p#total{
+    width: 100px;
+    height: 50px;
+    background-color: #D9D8D7;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    color: #262626;
+    font-weight: bolder;
+    padding: 5px;
+}
+
