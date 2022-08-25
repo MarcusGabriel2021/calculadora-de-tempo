@@ -22,5 +22,7 @@ function imprimir() {
     var total_html = document.getElementById("total");
     var tempo_total = `${tot_horas}h ${tot_min}min ${tot_seg}seg`
     total_html.innerHTML = tempo_total;
-
+    document.getElementById("horas").value = '';
+    document.getElementById("minutos").value = '';
+    document.getElementById("segundos").value = '';
 }
